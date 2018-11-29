@@ -263,7 +263,7 @@ class DockerComposerInstaller extends AbstractInstaller
 try {
 
   ComposerInstaller::instance()->install();
-  SamiInstaller::instance()->install();
+  /* SamiInstaller::instance()->install(); */
   DockerComposerInstaller::instance()->install();
 
 } catch(BootstrapError $e) {
