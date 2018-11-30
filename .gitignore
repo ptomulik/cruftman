@@ -6,8 +6,13 @@
 /build
 /tests/cache
 
-# composer.lock
-composer.lock
+# composer stuff
+/composer.lock
+/vendor
+
+# npm stuff
+/node_modules/
+/package-lock.json
 
 # phpunit
 phpunit.xml
@@ -35,7 +40,6 @@ phpunit.xml
 
 
 # Others
-/vendor
 /.idea
 /.vagrant
 Homestead.json
